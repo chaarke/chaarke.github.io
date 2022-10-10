@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&family=Poppins:wght@300&display=swap');
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) {
     .nav li {
-        display: inline; 
+        display: inline;
     }
 
     .card {
@@ -14,15 +14,21 @@
         padding-bottom: 1em;
         margin: 1em;
     }
+
+    #home-about {
+        flex-direction: row;
+    }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     .nav ul {
         display: inline-block;
         text-align: center;
     }
+
     .nav li {
-        padding-top: 2em;
+        margin-top: 1em;
+        padding: 1em;
         font-size: 1em;
     }
 
@@ -31,10 +37,14 @@
         text-align: center;
     }
 
+    #home-about {
+        flex-direction: column;
+    }
+
 }
 
 body {
-    font-family: Poppins, sans-serif; 
+    font-family: Poppins, sans-serif;
     background-color: white;
     color: #111f2d;
     display: flex;
@@ -71,14 +81,34 @@ h2 {
     display: inline;
 }
 
-.nav a {
+a {
     padding-left: 1em;
     color: #111f2d;
     text-decoration: none;
 }
 
-.nav a:hover {
-    color: navy; 
+ a:hover {
+    color: #397367;
 }
 
+.links {
+    background-color: #CAD8DE;
+    margin-top: 1em;
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
+}
 
+#textarea {
+    display: flex;
+    flex-direction:column
+}
+
+#myself {
+    max-width: 16em;
+    height: auto;
+}
+
+#home-about {
+    display: flex;
+}
