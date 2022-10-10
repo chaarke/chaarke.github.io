@@ -2,7 +2,8 @@
 
 body {
     font-family: Poppins, sans-serif; 
-    background-color: dodgerblue;
+    background-color: white;
+    color: #111f2d;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -51,7 +52,7 @@ h2 {
 }
 
 .card {
-    background-color: #6bb6ff;
+    background-color: azure;
     color: #111f2d;
     border-radius: 1em;
     padding-left: 2em;
