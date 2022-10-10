@@ -24,7 +24,7 @@ h2 {
 
 .nav {
     width: 100%;
-    color: white; 
+    color: #111f2d;
 }
 
 .nav ul {
@@ -44,7 +44,7 @@ h2 {
 
 .nav a {
     padding-left: 1em;
-    color: white; 
+    color: #111f2d;
 }
 
 .nav a:hover {
