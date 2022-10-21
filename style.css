@@ -86,14 +86,17 @@ h2 {
     display: inline;
 }
 
-a {
-    padding-left: 1em;
+.nav a {
     color: #111f2d;
+}
+
+a {
+    color: #397367;
     text-decoration: none;
 }
 
  a:hover {
-    color: #397367;
+    color: #E56399;
 }
 
 .links {
@@ -103,6 +106,16 @@ a {
     font-size: 1em;
     text-align: center;
 }
+
+.links a {
+    color: #111f2d;
+}
+
+.links:hover {
+    background-color: #E56399;
+}
+
+/* extra color: #A80874 */
 
 #textarea {
     display: flex;
