@@ -15,10 +15,6 @@
         margin: 1em;
     }
 
-    #home-about {
-        flex-direction: row;
-    }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -119,7 +115,7 @@ a {
 
 #textarea {
     display: flex;
-    flex-direction:column
+    flex-direction:column;
 }
 
 #myself {
